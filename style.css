@@ -98,11 +98,7 @@
 .about:hover{
     box-shadow: 2px 2px 17px cyan;
 }
-.bg-vdo video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
+
 .image{
     color: #fff;
     background-color: transparent;
@@ -152,8 +148,8 @@
 @media only screen and (max-width: 300px) {
 
     .earth-landing-page{
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         position: relative;
     }
     .nav nav{
@@ -222,6 +218,11 @@
         left: 80%;
         bottom: 25%;
     }
+    .bg-vdo video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
     .image a{
         color: inherit;
         text-decoration: none;
