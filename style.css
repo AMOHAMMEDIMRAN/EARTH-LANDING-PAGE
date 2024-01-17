@@ -144,7 +144,7 @@
 
 /* MEDIA QUERRY*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
 
     .earth-landing-page{
         height: 100vh;
