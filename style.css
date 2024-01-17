@@ -56,7 +56,7 @@
 }
 .bg-vdo video{
    width: 100%;
-   height: 100vh;
+   height: 100%;
    object-fit: cover;
 }
 .earth-name{
@@ -98,6 +98,11 @@
 .about:hover{
     box-shadow: 2px 2px 17px cyan;
 }
+.bg-vdo video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
 .image{
     color: #fff;
     background-color: transparent;
@@ -148,6 +153,7 @@
 
     .earth-landing-page{
         height: 100vh;
+        width: 100vw;
         position: relative;
     }
     .nav nav{
